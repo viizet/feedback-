@@ -25,7 +25,7 @@ loop = asyncio.get_event_loop()
 SUDO_USERS = config.SUDO_USER
 
 app = pyrogram.Client(
-    ":YukkiBot:",
+    ":fpflims_feedback_bot:",
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,

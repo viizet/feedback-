@@ -228,7 +228,7 @@ async def init():
                     return
                 if not message.reply_to_message.forward_sender_name:
                     return await message.reply_text(
-                        "Please reply to forwarded messages only."
+                        "4Please reply to forwarded messages only."
                     )
                 replied_id = message.reply_to_message_id
                 try:

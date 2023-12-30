@@ -79,11 +79,7 @@ async def init():
             return await message.reply_text(
                 "MONGO_DB_URI var not defined. Please define it first"
             )
-        if message.reply_to_message:
-            if not message.reply_to_message.sender_name:
-                return await message.reply_text(
-                    "Please reply to forwarded messages only."
-                )
+    
             replied_id = message.reply_to_message_id
             try:
                 replied_user_id = save[replied_id]

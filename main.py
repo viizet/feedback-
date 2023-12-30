@@ -82,7 +82,7 @@ async def init():
         if message.reply_to_message:
             if not message.reply_to_message.forward_sender_name:
                 return await message.reply_text(
-                    "Please reply to forwarded messages only."
+                    "1Please reply to forwarded messages only."
                 )
             replied_id = message.reply_to_message_id
             try:
@@ -120,7 +120,7 @@ async def init():
         if message.reply_to_message:
             if not message.reply_to_message.forward_sender_name:
                 return await message.reply_text(
-                    "Please reply to forwarded messages only."
+                    "2Please reply to forwarded messages only."
                 )
             replied_id = message.reply_to_message_id
             try:
@@ -285,7 +285,7 @@ async def init():
             replied_id = message.reply_to_message_id
             if not message.reply_to_message.forward_sender_name:
                 return await message.reply_text(
-                    "Please reply to forwarded messages only."
+                    "3Please reply to forwarded messages only."
                 )
             try:
                 replied_user_id = save[replied_id]

@@ -226,9 +226,10 @@ async def init():
                     or message.text == "/broadcast"
                 ):
                     return
-                if not message.reply_to_message.forward_sender_name:
-                    return await message.reply_text(
-                        "4Please reply to forwarded messages only."
+                if message.reply_to_message:
+            if not message.reply_to_message.forward_sender_name:
+                return await message.reply_text(
+                    "1Please reply to forwarded messages only."
                     )
                 replied_id = message.reply_to_message_id
                 try:

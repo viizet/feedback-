@@ -20,27 +20,27 @@
     "repository": "https://github.com/TeamYukki/YukkiChatBot",
     "env": {
       "API_ID": {
-        "description": "Get this value from my.telegram.org/apps.",
+        "description": "26176218",
         "required": true,
         "value": ""
       },
       "API_HASH": {
-        "description": "Get this value from my.telegram.org/apps.",
+        "description": "4a50bc8acb0169930f5914eb88091736",
         "required": true,
         "value": ""
       },
       "BOT_TOKEN": {
-        "description": "A Bot token from @BotFather",
+        "description": "6932110350:AAHiU3w9Ls5mglkm7HAL5HGb-5XGGhTpLtY",
         "required": true,
         "value": ""
       },
       "LOG_GROUP_ID": {
-        "description": "A group id to forward the incoming messages in it.",
+        "description": "1002037930718.",
         "required": true,
         "value": ""
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "description": "mongodb+srv://fprename8:fprename8@cluster0.xzza0as.mongodb.net/?retryWrites=true&w=majority",
         "required": false,
         "value": ""
       },
@@ -50,7 +50,7 @@
         "value": ""
       },
       "SUDO_USER": {
-        "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
+        "description": "1096693642",
         "required": true,
         "value": ""
       }
